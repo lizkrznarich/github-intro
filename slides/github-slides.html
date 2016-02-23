@@ -108,7 +108,7 @@
                     <li>Git concepts & workflow</li>
                     <li>Setting up a new repository</li>
                     <li>Basic git commands (adding, committing & pushing changes)</li>
-                    <li>Collaborating w/other developers (branching & merging)</li>
+                    <li>Collaborating w/others (branching & merging)</li>
                     <li>Debugging and resolving merge conflicts</li> 
                 </ul>
             </section>
@@ -147,9 +147,9 @@
                         </ul>
                 <ul>
             </section>
-        <!-- Git Concepts -->
+        <!-- Git Terminology -->
             <section class="hide-pdf">
-                <h2>Git Concepts</h2>
+                <h2>Git Terminology</h2>
                 <ul>
                     <li><strong class="blue">Repository ('Repo'):</strong> a project (folder) that Git is tracking changes to</li>
                     <li><strong class="blue">Working Directory:</strong> local copy of a Git repository</li>
@@ -207,23 +207,34 @@
         <!-- Git Status -->
             <section class="hide-pdf">
                 <h2>Making changes</h2>
-                <p><pre class="inline">git status</pre> check to see what changes Git has noticed</p>
+                <p><pre class="inline">git status</pre> Check to see what changes Git has noticed</p>
                 <pre class="terminal"><code class="xml">git status</code></pre>
             </section>
         <!-- Git Add -->
             <section class="hide-pdf">
                 <h2>Making changes</h2>
-                <p><pre class="inline">git add</pre> add files to the current commit</p>
+                <p><pre class="inline">git add</pre> Adds files to the Index (staging area for your next commit)</p>
                 <p>&nbsp;</p>
                 <p>Add all changed files</p>
                 <pre class="terminal"><code class="xml">git add *</code></pre>
                 <p>Add a single file</p>
                 <pre class="terminal"><code class="xml">git add readme.md</code></pre>
             </section>
+        <!-- Git Add -->
+            <section class="hide-pdf">
+                <h2>Making changes</h2>
+                <p><pre class="inline">git add</pre>ed something you didn't intend to?</p>
+                <p><pre class="inline">git reset</pre> Removes files from the Index</p>
+                <p>&nbsp;</p>
+                <p>Remove all files</p>
+                <pre class="terminal"><code class="xml">git reset</code></pre>
+                <p>Remove a single file</p>
+                <pre class="terminal"><code class="xml">git add readme.md</code></pre>
+            </section>
         <!-- Git Commit -->
             <section class="hide-pdf">
                 <h2>Making changes</h2>
-                <p><pre class="inline">git commit</pre> commit your changes to the Head</p>
+                <p><pre class="inline">git commit</pre> Commits your changes to the Head</p>
                 <ul>
                     <li>A commit is a waypoint in your project that you can refer/revert back to</li>
                     <li>Every commit requires a 'commit message' - a note about the purpose of the change</li>
@@ -234,7 +245,7 @@
         <!-- Git Log -->
             <section class="hide-pdf">
                 <h2>Making changes</h2>
-                <p><pre class="inline">git log</pre> shows list of commits</p>
+                <p><pre class="inline">git log</pre> Shows list of commits</p>
                 <p>&nbsp;</p>
                 <pre class="terminal"><code class="xml">git log
 commit 579e546a022fe0e1297d80ebefa4c849c188b093
@@ -285,11 +296,17 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
             <section class="hide-pdf">
                 <h2>Create a new Github repository</h2>
                 <ol>
-                    <li>Sign into Github</li>
-                    <li>Click New Repository</li>
-                    <li>Fill out the form and click Create Repository</li>
+                    <li>Sign into Github <a href="https://github.com/login">https://github.com/login</a></li>
+                    <li><img src="img/new-repo.png" width='200' style="float: right; margin: 0 0 0 .5em; padding: 0;">Click + in the upper right and choose New Repository
+                        </li>
+                    <li>Fill out the form and click Create Repository (see example on next slide)</li>
                 </ol>
             </section>
+            <section class="hide-pdf">
+                <img src="img/create-repo.png" width='600'>
+            </section>
+
+            
         <!-- Configure Git to work with Github -->
             <section class="hide-pdf">
                 <h2>Configure Git to work with Github</h2>
@@ -335,8 +352,8 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Playing nicely with others</h2>
                 <p>Git & Github allow users to work collaboratively through 2 features:</p>
                 <ul>
-                    <li>Branching: Developing features in isolated copies of a repo</li>
-                    <li>Merging: Incoporating branches into the master</li>
+                    <li><span class="blue">Branching:</span> Developing features in isolated copies of a repo</li>
+                    <li><span class="blue">Merging:</span> Incoporating branches into the master</li>
                 </ul>
             </section>
         <!-- Playing nicely with others -->
@@ -350,7 +367,8 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p><pre class="inline">git clone [URL]</pre>
                     <br>Copy an existing repository to your computer</p>
                 <pre class="terminal"><code class="xml">git clone https://github.com/gdiboston/gdi-intro-github-students</code></pre>
-                <p><a href="https://github.com/gdiboston/gdi-intro-github-students">https://github.com/gdiboston/gdi-intro-github-students</a></p>
+                <p>&nbsp;</p>
+                <p><pre style="font-size: .8em;">https://github.com/gdiboston/gdi-intro-github-students</pre></p>
             </section>
         <!-- Creating local branches -->
             <section class="hide-pdf">
@@ -372,8 +390,8 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Practice</h2>
                 <ol>
                     <li>Clone the gdi-intro-github-students repo (if you haven't already)</li>
-                    <li>Create a new local branch</li>
-                    <li>Create a new folder inside the repo named [first name][last initial] (ex: lizk)</li>
+                    <li>Create a new local branch named [first name][last initial] (ex: lizk)</li>
+                    <li>Create a new text file inside the repo named [first name][last initial].txt (ex: lizk.txt)</li>
                     <li>Commit your change</li>
                     <li>Push your branch to the remote repository</li>
                 </ol>
@@ -395,10 +413,18 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p>Click New Pull Request</p>
                 <img src="img/new-pull.png">
             </section>
+        <!-- Merging -->
+            <section class="hide-pdf">
+                <h2>Merge a pull request</h2>
+                <p>If there are no conflicts, a pull request can be merged with one click</p>
+                <img src="img/merge-pull.png">
+                <p><small class="blue">Depending on the repo settings, you may be able to merge your own pull requests...this is not always a good idea</small></p>
+            </section>
         <!-- Syncing your local repo  -->
             <section class="hide-pdf">
                 <h2>Syncing local & remote repos</h2>
-                <p><pre class="inline">git pull [remote]</pre><br>Fetch updates from the remote version of the current branch and merge them with your local copy</p>
+                <p>After pull requests are merged, it's important that you sync your local repo with the remote!</p>
+                <p><pre class="inline">git pull [remote]</pre><br>Fetch updates to the remote version of the current branch and merge them with your local copy</p>
                 <pre class="terminal"><code class="xml">git checkout master<br>git pull origin</code></pre>
             </section>
         <!-- Practice -->
