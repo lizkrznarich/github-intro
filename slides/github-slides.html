@@ -175,7 +175,7 @@
                     <li><pre class="inline">git push</pre> changes to your remote repository</li>
                 </ol>
             </section>
-        
+
         <!-- Creating a new repository -->
             <section class="hide-pdf">
                 <h2>Creating a new repository</h2>
@@ -216,7 +216,7 @@
                 <p><pre class="inline">git add</pre> Adds files to the Index (staging area for your next commit)</p>
                 <p>&nbsp;</p>
                 <p>Add all changed files</p>
-                <pre class="terminal"><code class="xml">git add *</code></pre>
+                <pre class="terminal"><code class="xml">git add -A</code></pre>
                 <p>Add a single file</p>
                 <pre class="terminal"><code class="xml">git add readme.md</code></pre>
             </section>
@@ -230,6 +230,16 @@
                 <pre class="terminal"><code class="xml">git reset</code></pre>
                 <p>Remove a single file</p>
                 <pre class="terminal"><code class="xml">git add readme.md</code></pre>
+            </section>
+        <!-- Configure Git for Commits -->
+            <section class="hide-pdf">
+                <h2>Configure Git for Commits</h2>
+                <p>In order to record changes in your commit history, Git needs to know a little about you.</p>
+                <p>Add your name</p>
+                <pre class="terminal"><code class="xml">git config --global user.name "YOUR NAME"</code></pre>
+                <p>&nbsp;</p>
+                <p>And the email attached to your Github account</p>
+                <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
             </section>
         <!-- Git Commit -->
             <section class="hide-pdf">
@@ -281,6 +291,35 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                     <li>Revert back to that first commit</li>
                 </ol>
             </section>
+        <!-- Ignoring files -->
+            <section class="hide-pdf">
+                <h2>Ignoring files</h2>
+                <p>In every repo, there are likely some files that you don't want Git to track, including:</p>
+                <ul>
+                    <li>System-generated files (ex: logs</li>
+                    <li>Files with sensitive info (ex: passwords)</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p>You can tell Git to ignore those by listing them in a <span class="blue">.gitignore</span> file</p>
+                <p><small>HINT! .gitignore templates for many languages are available at <a href="https://github.com/github/gitignore">https://github.com/github/gitignore</a></small></p>
+            </section>
+        <!-- Ignoring files -->
+            <section class="hide-pdf">
+                <h2>Ignoring files</h2>
+                <p>Create a .gitignore file inside your repo</p>
+                <pre class="terminal"><code class="xml">cd my-repo<br>vim .gitignore</code></pre>
+                <p>Add paths for files you want Git to ignore</p>
+                <pre class="terminal"><code class="xml">.DS_Store<br>*.log<br>~<br>~<br>--INSERT--</code></pre>
+            </section>
+        <!-- Practice! -->
+            <section class="hide-pdf">
+                <h2>Practice</h2>
+
+                <ol>
+                    <li>Create a .gitignore file inside your repo that ignores .DS_Store files</li>
+                    <li>Add and commit your changes</li>
+                </ol>
+            </section>
 
          <!-- Remote Repositories -->
             <section class="hide-pdf">
@@ -307,15 +346,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
             </section>
 
             
-        <!-- Configure Git to work with Github -->
-            <section class="hide-pdf">
-                <h2>Configure Git to work with Github</h2>
-                <p>Add your name</p>
-                <pre class="terminal"><code class="xml">git config --global user.name "YOUR NAME"</code></pre>
-                <p>&nbsp;</p>
-                <p>And the email address associated with your Github account</p>
-                <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
-            </section>
+        
         <!-- Connect the your local repo to Github -->
             <section class="hide-pdf">
                 <h2>Connect your local repo to your Github repo</h2>
@@ -470,7 +501,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
             <section class="hide-pdf">
                 <h2>Resolve a merge conflict</h2>
                 <p>4. Commit your changes</p>
-                <pre class="terminal"><code class="xml">git add *<br>git commit -m "resolve merge conflict"</code></pre>
+                <pre class="terminal"><code class="xml">git add [files]<br>git commit -m "resolve merge conflict"</code></pre>
                 <p>5. Push your changes to the remote branch</p>
                 <pre class="terminal"><code class="xml">git push origin problemBranch</code></pre>
                 <p class="blue"><small>No need to open a new Pull Request - your pushed changes will automatically be reflected in the current Pull Request</small></p>
@@ -499,7 +530,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
 			</div>
   		<footer>
         <div class="copyright">
-          Intro to the Linux Command Line -- Boston Chapter --
+          Intro to Version Control with Git/Github -- Boston Chapter --
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>
