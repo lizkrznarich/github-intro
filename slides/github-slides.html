@@ -48,8 +48,6 @@
             <section class="hide-pdf">
                 <h2>Welcome!</h2>
                 <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
-                <p>&nbsp;</p>
-                <p class="blue">Some "rules"</p>
                 <ul>
                     <li>We are here for you!</li>
                     <li>Every question is important</li>
@@ -70,7 +68,7 @@
                 <p>&nbsp;</p>
                 <p class="blue">Course website: </p>
                 <p>https://github.com/gdiboston/gdi-intro-github</p>
-                <p>&nbsp;</p>
+
                 <p class="blue">Instructor contact info: </p>
                 <p>lizk@girldevelopit.com</p>
             </section>   
@@ -80,7 +78,7 @@
                 <ul>
                     <li>Who are you?</li>
                     <li>What do you hope to get out of the class?</li>
-                    <li>What's your spirit vegetable?</li>
+                    <li>What's your favorite food?</li>
                 </ul>
             </section>
         <!-- Get started -->
@@ -175,7 +173,34 @@
                     <li><pre class="inline">git push</pre> changes to your remote repository</li>
                 </ol>
             </section>
-
+        <!-- Fire up your Terminal -->
+            <section class="hide-pdf">
+                <h2>Fire up your command shell</h2>
+                <ul>
+                    <li><strong class="blue">Mac OS:</strong> open Applications > Utilities > Terminal</li>  
+                    <li><strong class="blue">Win:</strong> in the Start menu or screen, search for Git Bash</li> 
+                </ul>
+    
+                <pre class="terminal"><code class="xml">
+    user@bash: 
+                </code></pre>
+            </section>
+        <!-- Check to make sure that Git is installed -->
+            <section class="hide-pdf">
+                <h2>Check that Git is installed</h2>
+                <p>&nbsp;</p>
+                <pre class="terminal"><code class="xml">git --version</code></pre>
+            </section>
+        <!-- Configure Git for Commits -->
+            <section class="hide-pdf">
+                <h2>Configure Git</h2>
+                <p>In order to record changes in your commit history, Git needs to know a little about you.</p>
+                <p>Add your name</p>
+                <pre class="terminal"><code class="xml">git config --global user.name "YOUR NAME"</code></pre>
+                <p>&nbsp;</p>
+                <p>And the email attached to your Github account</p>
+                <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
+            </section>
         <!-- Creating a new repository -->
             <section class="hide-pdf">
                 <h2>Creating a new repository</h2>
@@ -201,7 +226,7 @@
             <section class="hide-pdf">
                 <h2>Making changes</h2>
                 <p>Create a new file</p>
-                <pre class="terminal"><code class="xml">touch readme.txt</code></pre>
+                <pre class="terminal"><code class="xml">touch readme.md</code></pre>
                 <p><small class="blue">Every repository should have a readme!</small></p>
             </section>
         <!-- Git Status -->
@@ -229,18 +254,9 @@
                 <p>Remove all files</p>
                 <pre class="terminal"><code class="xml">git reset</code></pre>
                 <p>Remove a single file</p>
-                <pre class="terminal"><code class="xml">git add readme.md</code></pre>
+                <pre class="terminal"><code class="xml">git reset readme.md</code></pre>
             </section>
-        <!-- Configure Git for Commits -->
-            <section class="hide-pdf">
-                <h2>Configure Git for Commits</h2>
-                <p>In order to record changes in your commit history, Git needs to know a little about you.</p>
-                <p>Add your name</p>
-                <pre class="terminal"><code class="xml">git config --global user.name "YOUR NAME"</code></pre>
-                <p>&nbsp;</p>
-                <p>And the email attached to your Github account</p>
-                <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
-            </section>
+        
         <!-- Git Commit -->
             <section class="hide-pdf">
                 <h2>Making changes</h2>
@@ -267,7 +283,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Practice</h2>
 
                 <ol>
-                    <li>Add some text to your readme.txt file (either in Vim or in TextEdit) and save</li>
+                    <li>Add some text to your readme.md file (either in Vim or in TextEdit) and save</li>
                     <li>Check to see what changes Git noticed</li>
                     <li>Add and commit the changes</li>
                     <li>Check your commit history</li>
@@ -296,7 +312,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Ignoring files</h2>
                 <p>In every repo, there are likely some files that you don't want Git to track, including:</p>
                 <ul>
-                    <li>System-generated files (ex: logs</li>
+                    <li>System-generated files (ex: logs)</li>
                     <li>Files with sensitive info (ex: passwords)</li>
                 </ul>
                 <p>&nbsp;</p>
