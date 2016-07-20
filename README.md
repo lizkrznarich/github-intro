@@ -10,6 +10,6 @@ Class materials for Intro to Version Control with Git/Github
 3. Open the slides file at gdi-intro-github/slides/github-slides.html in a browser
 
 ##Handout
-https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
 
