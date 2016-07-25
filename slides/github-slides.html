@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>GDI Boston Intro to Version Control with Git & Github</title>
+		<title>GDI Boston Intro to Version Control with Git & GitHub</title>
 
 		<meta name="description" content="Slides for Girl Develop It Boston's Intro to the Linux Command Line class">
 		<meta name="author" content="Girl Develop It">
@@ -38,7 +38,7 @@
 				<section>
 					<!--<h1>Intro to the Linux Command Line</h1>-->
                     <h3>Intro to Version Control with</h3>
-					<h1>Git & Github</h1>
+					<h1>Git & GitHub</h1>
 
 					<p>
 						<small>Find these slides (and other handy resources) at <a href ="https://github.com/gdiboston/gdi-intro-github">https://github.com/gdiboston/gdi-intro-github</a></small>
@@ -94,7 +94,7 @@
                     </li>
 
                     <li>Git: <a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a></li>
-                    <li>Github: <a href="https://github.com">https://github.com</a></li>
+                    <li>GitHub: <a href="https://github.com">https://github.com</a></li>
                 </ul>
 
 
@@ -135,9 +135,9 @@
             </section>
         <!-- What is Git? -->
             <section class="hide-pdf">
-                <h2>What is Github?</h2>
+                <h2>What is GitHub?</h2>
                     <p>&nbsp;</p>
-                    <p><strong class="blue">Github:</strong> Code storage and sharing service that interacts with Git and allows you to:</p>
+                    <p><strong class="blue">GitHub:</strong> Code storage and sharing service that interacts with Git and allows you to:</p>
                         <ul>
                             <li>Collaborate with others on projects</li>
                             <li>Share/showcase your code</li>
@@ -153,7 +153,7 @@
                     <li><strong class="blue">Working Directory:</strong> local copy of a Git repository</li>
                     <li><strong class="blue">Index:</strong>  staging area - list of changes not yet committed</li>
                     <li><strong class="blue">Head:</strong> list of committed changes</li>
-                    <li><strong class="blue">Remote Repository:</strong> remote copy of a Git repository (ie: in Github)</li>
+                    <li><strong class="blue">Remote Repository:</strong> remote copy of a Git repository (ie: in GitHub)</li>
                 </ul>
             </section>
         <!-- Git Concepts -->
@@ -198,7 +198,7 @@
                 <p>Add your name</p>
                 <pre class="terminal"><code class="xml">git config --global user.name "YOUR NAME"</code></pre>
                 <p>&nbsp;</p>
-                <p>And the email attached to your Github account</p>
+                <p>And the email attached to your GitHub account</p>
                 <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
             </section>
         <!-- Creating a new repository -->
@@ -347,11 +347,11 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                     <li>Share/collaborate with others</li>
                 </ul>
             </section>
-        <!-- Create a new Github repository -->
+        <!-- Create a new GitHub repository -->
             <section class="hide-pdf">
-                <h2>Create a new Github repository</h2>
+                <h2>Create a new GitHub repository</h2>
                 <ol>
-                    <li>Sign into Github <a href="https://github.com/login">https://github.com/login</a></li>
+                    <li>Sign into GitHub <a href="https://github.com/login">https://github.com/login</a></li>
                     <li><img src="img/new-repo.png" width='200' style="float: right; margin: 0 0 0 .5em; padding: 0;">Click + in the upper right and choose New Repository
                         </li>
                     <li>Fill out the form and click Create Repository (see example on next slide)</li>
@@ -363,24 +363,24 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
 
 
 
-        <!-- Connect the your local repo to Github -->
+        <!-- Connect the your local repo to GitHub -->
             <section class="hide-pdf">
-                <h2>Connect your local repo to your Github repo</h2>
-                <p>Find the URL for your Github repo</p>
+                <h2>Connect your local repo to your GitHub repo</h2>
+                <p>Find the URL for your GitHub repo</p>
                 <img src="img/github-url.png">
             </section>
-         <!-- Connect the your local repo to Github -->
+         <!-- Connect the your local repo to GitHub -->
             <section class="hide-pdf">
-                <h2>Connect your local repo to your Github repo</h2>
-                <p>Set a new remote repo, using your Github URL</p>
+                <h2>Connect your local repo to your GitHub repo</h2>
+                <p>Set a new remote repo, using your GitHub URL</p>
                 <pre class="terminal"><code class="xml">git remote add origin https://github.com...</code></pre>
                 <p>&nbsp;</p>
                 <p>Verify that the remote repo was added</p>
                 <pre class="terminal"><code class="xml">git remote -v</code></pre>
             </section>
-        <!-- Push your commit to Github -->
+        <!-- Push your commit to GitHub -->
             <section class="hide-pdf">
-                <h2>Push code to Github</h2>
+                <h2>Push code to GitHub</h2>
                  <p><pre class="inline">git push [remote name] [branch name]</pre><br>push most recent commit to remote repo</p>
                 <p>&nbsp;</p>
                 <pre class="terminal"><code class="xml">git push origin master</code></pre>
@@ -391,13 +391,13 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <ol>
                     <li>Add some text to your readme.txt file and save</li>
                     <li>Add and commit the change</li>
-                    <li>Push the change to Github</li>
+                    <li>Push the change to GitHub</li>
                 </ol>
             </section>
         <!-- Playing nicely with others -->
             <section class="hide-pdf">
                 <h2>Playing nicely with others</h2>
-                <p>Git & Github allow users to work collaboratively through 2 features:</p>
+                <p>Git & GitHub allow users to work collaboratively through 2 features:</p>
                 <ul>
                     <li><span class="blue">Branching:</span> Developing features in isolated copies of a repo</li>
                     <li><span class="blue">Merging:</span> Incoporating branches into the master</li>
@@ -448,8 +448,8 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Pull requests</h2>
                 <p><span class="blue">Pull requests</span> send a message to the remote repository owner asking to merge your branch into the master branch</p>
                 <ul>
-                    <li>Pull requests are specific to Github (not part of Git)</li>
-                    <li>Pull requests can only be made via the Github UI</li>
+                    <li>Pull requests are specific to GitHub (not part of Git)</li>
+                    <li>Pull requests can only be made via the GitHub UI</li>
                 </ul>
             </section>
         <!-- Pull requests -->
@@ -525,10 +525,10 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
              <!-- Resources -->
             <section class="hide-pdf">
                 <h2>Resources</h2>
-                <p>More Git/Github goodness!</p>
+                <p>More Git/GitHub goodness!</p>
                 <ul>
                     <li><a href="http://rogerdudler.github.io/git-guide/">Git - the simple guide</a></li>
-                    <li><a href="https://help.github.com/">Github Help</a></li>
+                    <li><a href="https://help.github.com/">GitHub Help</a></li>
                     <li><a href="https://git-scm.com/doc">Git Documentation</a></li>
                 </ul>
             </section>
@@ -546,7 +546,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
 			</div>
   		<footer>
         <div class="copyright">
-          Intro to Version Control with Git/Github -- Boston Chapter --
+          Intro to Version Control with Git/GitHub -- Boston Chapter --
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>
