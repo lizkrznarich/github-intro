@@ -424,13 +424,13 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <pre class="terminal"><code class="xml">git branch</code></pre>
                 <p>&nbsp;</p>
                 <p><pre class="inline">git checkout -b [branchname]</pre><br>Create a new local branch</p>
-                <pre class="terminal"><code class="xml">git checkout -b newBranch</code></pre>
+                <pre class="terminal"><code class="xml">git checkout -b new-branch</code></pre>
             </section>
         <!-- Creating remote branches -->
             <section class="hide-pdf">
                 <h2>Creating remote branches</h2>
                 <p><pre class="inline">git push [remote] [branchname]</pre><br>Create a remote copy of your new local branch and push changes to it</p>
-                <pre class="terminal"><code class="xml">git push origin newBranch</code></pre>
+                <pre class="terminal"><code class="xml">git push origin new-branch</code></pre>
             </section>
         <!-- Practice -->
             <section class="hide-pdf">
@@ -499,7 +499,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p>1. Sync your local master with the remote master</p>
                 <pre class="terminal"><code class="xml">git checkout master<br>git pull</code></pre>
                 <p>2. (Attempt to) Merge your local master into your local branch (Git will tell you there's a conflict)</p>
-                <pre class="terminal"><code class="xml">git checkout problemBranch<br>git merge master</code></pre>
+                <pre class="terminal"><code class="xml">git checkout problem-branch<br>git merge master</code></pre>
             </section>
         <!-- Resolve a merge conflict -->
             <section class="hide-pdf">
@@ -519,7 +519,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p>4. Commit your changes</p>
                 <pre class="terminal"><code class="xml">git add [files]<br>git commit -m "resolve merge conflict"</code></pre>
                 <p>5. Push your changes to the remote branch</p>
-                <pre class="terminal"><code class="xml">git push origin problemBranch</code></pre>
+                <pre class="terminal"><code class="xml">git push origin problem-branch</code></pre>
                 <p class="blue"><small>No need to open a new Pull Request - your pushed changes will automatically be reflected in the current Pull Request</small></p>
             </section>
              <!-- Resources -->
