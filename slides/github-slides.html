@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>GDI Boston Intro to Version Control with Git & Github</title>
+		<title>GDI Boston Intro to Version Control with Git &amp; GitHub</title>
 
 		<meta name="description" content="Slides for Girl Develop It Boston's Intro to the Linux Command Line class">
 		<meta name="author" content="Girl Develop It">
@@ -20,7 +20,7 @@
 		<!-- dark editor--><link rel="stylesheet" href="lib/css/dark.css">
 
 		<!-- If use the PDF print sheet so students can print slides-->
-		
+
 		<link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 		<!--[if lt IE 9]>
@@ -38,7 +38,7 @@
 				<section>
 					<!--<h1>Intro to the Linux Command Line</h1>-->
                     <h3>Intro to Version Control with</h3>
-					<h1>Git & Github</h1>
+					<h1>Git &amp; GitHub</h1>
 
 					<p>
 						<small>Find these slides (and other handy resources) at <a href ="https://github.com/gdiboston/gdi-intro-github">https://github.com/gdiboston/gdi-intro-github</a></small>
@@ -55,7 +55,7 @@
                     <li>Have fun</li>
                 </ul>
             </section>
-            
+
             <!-- First Things First -->
             <section>
                 <h2>First Things First</h2>
@@ -71,7 +71,7 @@
 
                 <p class="blue">Instructor contact info: </p>
                 <p>lizk@girldevelopit.com</p>
-            </section>   
+            </section>
             <section class="hide-pdf">
                 <h2>First Things First</h2>
                 <p class="blue">Tell us about yourself.</p>
@@ -89,25 +89,25 @@
                     <li>Command Line Interface:
                         <ul>
                             <li>Terminal (MacOS): Built in</li>
-                            <li>Cygwin (Win): <a href="https://www.cygwin.com/">https://www.cygwin.com</a></li>
+                            <li>Babun (Win): <a href="https://babun.github.io/">babun.github.io</a></li>
                         </ul>
                     </li>
 
                     <li>Git: <a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a></li>
-                    <li>Github: <a href="https://github.com">https://github.com</a></li>
+                    <li>GitHub: <a href="https://github.com">https://github.com</a></li>
                 </ul>
-              
-           
+
+
             </section>
         <!-- What we'll cover today -->
             <section class="hide-pdf">
                 <h2>What we'll cover today</h2>
                 <ul>
-                    <li>Git concepts & workflow</li>
+                    <li>Git concepts &amp; workflow</li>
                     <li>Setting up a new repository</li>
-                    <li>Basic git commands (adding, committing & pushing changes)</li>
-                    <li>Collaborating w/others (branching & merging)</li>
-                    <li>Debugging and resolving merge conflicts</li> 
+                    <li>Basic git commands (adding, committing &amp; pushing changes)</li>
+                    <li>Collaborating w/others (branching &amp; merging)</li>
+                    <li>Debugging and resolving merge conflicts</li>
                 </ul>
             </section>
         <!-- What is version control? -->
@@ -131,13 +131,13 @@
                             <li>Command line application</li>
                             <li>Runs on your local machine</li>
                         </ul>
-                    
+
             </section>
         <!-- What is Git? -->
             <section class="hide-pdf">
-                <h2>What is Github?</h2>
+                <h2>What is GitHub?</h2>
                     <p>&nbsp;</p>
-                    <p><strong class="blue">Github:</strong> Code storage and sharing service that interacts with Git and allows you to:</p>
+                    <p><strong class="blue">GitHub:</strong> Code storage and sharing service that interacts with Git and allows you to:</p>
                         <ul>
                             <li>Collaborate with others on projects</li>
                             <li>Share/showcase your code</li>
@@ -149,11 +149,11 @@
             <section class="hide-pdf">
                 <h2>Git Terminology</h2>
                 <ul>
-                    <li><strong class="blue">Repository ('Repo'):</strong> a project (folder) that Git is tracking changes to</li>
+                    <li><strong class="blue">Repository ("Repo"):</strong> a project (folder) that Git is tracking changes to</li>
                     <li><strong class="blue">Working Directory:</strong> local copy of a Git repository</li>
-                    <li><strong class="blue">Index:</strong>  staging area - list of changes not yet committed</li>   
+                    <li><strong class="blue">Index:</strong>  staging area - list of changes not yet committed</li>
                     <li><strong class="blue">Head:</strong> list of committed changes</li>
-                    <li><strong class="blue">Remote Repository:</strong> remote copy of a Git repository (ie: in Github)</li>
+                    <li><strong class="blue">Remote Repository:</strong> remote copy of a Git repository (ie: in GitHub)</li>
                 </ul>
             </section>
         <!-- Git Concepts -->
@@ -166,10 +166,10 @@
             <section class="hide-pdf">
                 <h2>Git workflow</h2>
                 <ol>
-                    <li>Create a new folder for your project & <pre class="inline">git init</pre> to make it a Git repo (or <pre class="inline">git clone</pre> an existing repo)</li>   
+                    <li>Create a new folder for your project &amp; <pre class="inline">git init</pre> to make it a Git repo (or <pre class="inline">git clone</pre> an existing repo)</li>
                     <li>Work on your project</li>
                     <li><pre class="inline">git add</pre> changes to the Index (staging area) as you work</li>
-                    <li><pre class="inline">git commit</pre> changes to the Head ('official' list of changes)</li>
+                    <li><pre class="inline">git commit</pre> changes to the Head ("official" list of changes)</li>
                     <li><pre class="inline">git push</pre> changes to your remote repository</li>
                 </ol>
             </section>
@@ -177,12 +177,12 @@
             <section class="hide-pdf">
                 <h2>Fire up your command shell</h2>
                 <ul>
-                    <li><strong class="blue">Mac OS:</strong> open Applications > Utilities > Terminal</li>  
-                    <li><strong class="blue">Win:</strong> in the Start menu or screen, search for Git Bash</li> 
+                    <li><strong class="blue">Mac OS:</strong> open Applications > Utilities > Terminal</li>
+                    <li><strong class="blue">Win:</strong> in the Start menu or screen, search for Babun</li>
                 </ul>
-    
+
                 <pre class="terminal"><code class="xml">
-    user@bash: 
+    user@bash:
                 </code></pre>
             </section>
         <!-- Check to make sure that Git is installed -->
@@ -198,7 +198,7 @@
                 <p>Add your name</p>
                 <pre class="terminal"><code class="xml">git config --global user.name "YOUR NAME"</code></pre>
                 <p>&nbsp;</p>
-                <p>And the email attached to your Github account</p>
+                <p>And the email attached to your GitHub account</p>
                 <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
             </section>
         <!-- Creating a new repository -->
@@ -226,8 +226,8 @@
             <section class="hide-pdf">
                 <h2>Making changes</h2>
                 <p>Create a new file</p>
-                <pre class="terminal"><code class="xml">touch readme.md</code></pre>
-                <p><small class="blue">Every repository should have a readme!</small></p>
+                <pre class="terminal"><code class="xml">touch README.md</code></pre>
+                <p><small class="blue">Every repository should have a README file!</small></p>
             </section>
         <!-- Git Status -->
             <section class="hide-pdf">
@@ -243,7 +243,7 @@
                 <p>Add all changed files</p>
                 <pre class="terminal"><code class="xml">git add -A</code></pre>
                 <p>Add a single file</p>
-                <pre class="terminal"><code class="xml">git add readme.md</code></pre>
+                <pre class="terminal"><code class="xml">git add README.md</code></pre>
             </section>
         <!-- Git Add -->
             <section class="hide-pdf">
@@ -254,19 +254,19 @@
                 <p>Remove all files</p>
                 <pre class="terminal"><code class="xml">git reset</code></pre>
                 <p>Remove a single file</p>
-                <pre class="terminal"><code class="xml">git reset readme.md</code></pre>
+                <pre class="terminal"><code class="xml">git reset README.md</code></pre>
             </section>
-        
+
         <!-- Git Commit -->
             <section class="hide-pdf">
                 <h2>Making changes</h2>
                 <p><pre class="inline">git commit</pre> Commits your changes to the Head</p>
                 <ul>
                     <li>A commit is a waypoint in your project that you can refer/revert back to</li>
-                    <li>Every commit requires a 'commit message' - a note about the purpose of the change</li>
+                    <li>Every commit requires a "commit message" - a note about the purpose of the change</li>
                 </ul>
                 <p>&nbsp;</p>
-                <pre class="terminal"><code class="xml">git commit -m "added readme"</code></pre>
+                <pre class="terminal"><code class="xml">git commit -m "added README file"</code></pre>
             </section>
         <!-- Git Log -->
             <section class="hide-pdf">
@@ -283,7 +283,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Practice</h2>
 
                 <ol>
-                    <li>Add some text to your readme.md file (either in Vim or in TextEdit) and save</li>
+                    <li>Add some text to your README.md file (using TextEdit, Notepad, or another text editor) and save</li>
                     <li>Check to see what changes Git noticed</li>
                     <li>Add and commit the changes</li>
                     <li>Check your commit history</li>
@@ -347,11 +347,11 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                     <li>Share/collaborate with others</li>
                 </ul>
             </section>
-        <!-- Create a new Github repository -->
+        <!-- Create a new GitHub repository -->
             <section class="hide-pdf">
-                <h2>Create a new Github repository</h2>
+                <h2>Create a new GitHub repository</h2>
                 <ol>
-                    <li>Sign into Github <a href="https://github.com/login">https://github.com/login</a></li>
+                    <li>Sign into GitHub <a href="https://github.com/login">https://github.com/login</a></li>
                     <li><img src="img/new-repo.png" width='200' style="float: right; margin: 0 0 0 .5em; padding: 0;">Click + in the upper right and choose New Repository
                         </li>
                     <li>Fill out the form and click Create Repository (see example on next slide)</li>
@@ -361,26 +361,26 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <img src="img/create-repo.png" width='600'>
             </section>
 
-            
-        
-        <!-- Connect the your local repo to Github -->
+
+
+        <!-- Connect the your local repo to GitHub -->
             <section class="hide-pdf">
-                <h2>Connect your local repo to your Github repo</h2>
-                <p>Find the URL for your Github repo</p>
+                <h2>Connect your local repo to your GitHub repo</h2>
+                <p>Find the URL for your GitHub repo</p>
                 <img src="img/github-url.png">
             </section>
-         <!-- Connect the your local repo to Github -->
+         <!-- Connect the your local repo to GitHub -->
             <section class="hide-pdf">
-                <h2>Connect your local repo to your Github repo</h2>
-                <p>Set a new remote repo, using your Github URL</p>
+                <h2>Connect your local repo to your GitHub repo</h2>
+                <p>Set a new remote repo, using your GitHub URL</p>
                 <pre class="terminal"><code class="xml">git remote add origin https://github.com...</code></pre>
                 <p>&nbsp;</p>
                 <p>Verify that the remote repo was added</p>
                 <pre class="terminal"><code class="xml">git remote -v</code></pre>
             </section>
-        <!-- Push your commit to Github -->
+        <!-- Push your commit to GitHub -->
             <section class="hide-pdf">
-                <h2>Push code to Github</h2>
+                <h2>Push code to GitHub</h2>
                  <p><pre class="inline">git push [remote name] [branch name]</pre><br>push most recent commit to remote repo</p>
                 <p>&nbsp;</p>
                 <pre class="terminal"><code class="xml">git push origin master</code></pre>
@@ -389,15 +389,15 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
             <section class="hide-pdf">
                 <h2>Practice</h2>
                 <ol>
-                    <li>Add some text to your readme.txt file and save</li>
+                    <li>Add some text to your README.txt file and save</li>
                     <li>Add and commit the change</li>
-                    <li>Push the change to Github</li>
+                    <li>Push the change to GitHub</li>
                 </ol>
             </section>
         <!-- Playing nicely with others -->
             <section class="hide-pdf">
                 <h2>Playing nicely with others</h2>
-                <p>Git & Github allow users to work collaboratively through 2 features:</p>
+                <p>Git &amp; GitHub allow users to work collaboratively through 2 features:</p>
                 <ul>
                     <li><span class="blue">Branching:</span> Developing features in isolated copies of a repo</li>
                     <li><span class="blue">Merging:</span> Incoporating branches into the master</li>
@@ -424,13 +424,13 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <pre class="terminal"><code class="xml">git branch</code></pre>
                 <p>&nbsp;</p>
                 <p><pre class="inline">git checkout -b [branchname]</pre><br>Create a new local branch</p>
-                <pre class="terminal"><code class="xml">git checkout -b newBranch</code></pre>
+                <pre class="terminal"><code class="xml">git checkout -b new-branch</code></pre>
             </section>
         <!-- Creating remote branches -->
             <section class="hide-pdf">
                 <h2>Creating remote branches</h2>
                 <p><pre class="inline">git push [remote] [branchname]</pre><br>Create a remote copy of your new local branch and push changes to it</p>
-                <pre class="terminal"><code class="xml">git push origin newBranch</code></pre>
+                <pre class="terminal"><code class="xml">git push origin new-branch</code></pre>
             </section>
         <!-- Practice -->
             <section class="hide-pdf">
@@ -448,8 +448,8 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <h2>Pull requests</h2>
                 <p><span class="blue">Pull requests</span> send a message to the remote repository owner asking to merge your branch into the master branch</p>
                 <ul>
-                    <li>Pull requests are specific to Github (not part of Git)</li>
-                    <li>Pull requests can only be made via the Github UI</li>
+                    <li>Pull requests are specific to GitHub (not part of Git)</li>
+                    <li>Pull requests can only be made via the GitHub UI</li>
                 </ul>
             </section>
         <!-- Pull requests -->
@@ -469,7 +469,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
             </section>
         <!-- Syncing your local repo  -->
             <section class="hide-pdf">
-                <h2>Syncing local & remote repos</h2>
+                <h2>Syncing local &amp; remote repos</h2>
                 <p>After pull requests are merged, it's important that you sync your local repo with the remote!</p>
                 <p><pre class="inline">git pull [remote]</pre><br>Fetch updates to the remote version of the current branch and merge them with your local copy</p>
                 <pre class="terminal"><code class="xml">git checkout master<br>git pull origin</code></pre>
@@ -499,7 +499,7 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p>1. Sync your local master with the remote master</p>
                 <pre class="terminal"><code class="xml">git checkout master<br>git pull</code></pre>
                 <p>2. (Attempt to) Merge your local master into your local branch (Git will tell you there's a conflict)</p>
-                <pre class="terminal"><code class="xml">git checkout problemBranch<br>git merge master</code></pre>
+                <pre class="terminal"><code class="xml">git checkout problem-branch<br>git merge master</code></pre>
             </section>
         <!-- Resolve a merge conflict -->
             <section class="hide-pdf">
@@ -507,10 +507,11 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p>3. Edit the problem file(s) in your branch to remove the conflict(s)</p>
                 <p>Git marks conflicts in your files:</p>
                 <pre class="terminal" style="background-color: #000; padding: .8em;">
-    &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEAD
+    &lt;&lt;&lt;&lt;&lt;&lt; HEAD
     Here's the line in your branch
+    ======
     Here's the same line in the master
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt;master
+    &gt;&gt;&gt;&gt;&gt;&gt; master
                 </pre>
             </section>
         <!-- Resolve a merge conflict -->
@@ -519,16 +520,16 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p>4. Commit your changes</p>
                 <pre class="terminal"><code class="xml">git add [files]<br>git commit -m "resolve merge conflict"</code></pre>
                 <p>5. Push your changes to the remote branch</p>
-                <pre class="terminal"><code class="xml">git push origin problemBranch</code></pre>
+                <pre class="terminal"><code class="xml">git push origin problem-branch</code></pre>
                 <p class="blue"><small>No need to open a new Pull Request - your pushed changes will automatically be reflected in the current Pull Request</small></p>
             </section>
              <!-- Resources -->
             <section class="hide-pdf">
                 <h2>Resources</h2>
-                <p>More Git/Github goodness!</p>
+                <p>More Git/GitHub goodness!</p>
                 <ul>
                     <li><a href="http://rogerdudler.github.io/git-guide/">Git - the simple guide</a></li>
-                    <li><a href="https://help.github.com/">Github Help</a></li>
+                    <li><a href="https://help.github.com/">GitHub Help</a></li>
                     <li><a href="https://git-scm.com/doc">Git Documentation</a></li>
                 </ul>
             </section>
@@ -540,13 +541,13 @@ Date:   Fri Feb 19 13:56:41 2016 -0500</code></pre>
                 <p class="blue">Questions?</p>
                 <p>boston@girldevelopit.com</p>
             </section>
-         
-         
+
+
 
 			</div>
   		<footer>
         <div class="copyright">
-          Intro to Version Control with Git/Github -- Boston Chapter --
+          Intro to Version Control with Git/GitHub -- Boston Chapter --
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>
