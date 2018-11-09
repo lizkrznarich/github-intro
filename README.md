@@ -1,11 +1,54 @@
-# github-intro
-Intro to Git + Github workshop materials
+# Intro to version control with Git + Github
+Workshop for [Madhacks 2018](https://www.madhacks.io/)
 
 ## Slides
 
 [https://lizkrznarich.github.io/github-intro/slides](https://lizkrznarich.github.io/github-intro/slides)
 
 ## Tutorial
+
+### What we'll cover today
+1. Git concepts + terms
+2. Setting up Git + Github
+3. Creating a new repository
+4. Basic git commands
+5. Collaborating w/others (branching/merging)
+
+### What is version control?
+Software that records changes to files so that you can:
+
+- Revert to a previous state
+- Compare changes over time
+- Collaborate with others without overwriting each others' changes
+
+No more catastrophes!
+
+### What is Git?
+Free, open source version control system
+
+- Command line application
+- Runs on your local machine
+
+### What is GitHub?
+
+Git: Free, open source version control system
+
+- Command line application
+- Runs on your local machine
+
+### Git terms
+
+- **Repository ("Repo"):** a project (folder) that Git is tracking changes to
+- **Remote Repository:** remote copy of a Git repository (ie: in GitHub)
+- **Working Directory:** local copy of a Git repository
+- **Commit:** a change set recorded in Git
+- **Index:** staging area - list of changes not yet committed
+- **Head:** list of committed changes
+
+### Git workflow
+
+![example Git workflow](https://github.com/lizkrznarich/github-intro/blob/master/slides/img/git-workflow.png)
+
 ### Create a GitHub account
 1. Sign up at [https://github.com](https://github.com)
 ### Create a new repository
