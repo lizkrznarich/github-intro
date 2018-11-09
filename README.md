@@ -15,15 +15,15 @@ Intro to Git + Github workshop materials
 
 2. Check that Git is installed
 
-    git --version
+        git --version
 
 3. Add your name
 
-    git config --global user.name "YOUR NAME"
+        git config --global user.name "YOUR NAME"
 
 4. And the email attached to your GitHub account
 
-    git config --global user.email "YOUR EMAIL"
+        git config --global user.email "YOUR EMAIL"
 
 ### Clone your repo
 ### Making changes
