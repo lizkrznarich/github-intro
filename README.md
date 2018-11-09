@@ -122,15 +122,17 @@ Intro to Git + Github workshop materials
         git pull origin
 
 ## More topics to explore
-[Merge conflicts](https://help.github.com/articles/about-merge-conflicts/)
-[Ignoring files](https://help.github.com/articles/ignoring-files/)
-[Forking other repos](https://help.github.com/articles/fork-a-repo/)
-[Hosting sites with GitHub Pages](https://pages.github.com/)
+
+- [Merge conflicts](https://help.github.com/articles/about-merge-conflicts/)
+- [Ignoring files](https://help.github.com/articles/ignoring-files/)
+- [Forking other repos](https://help.github.com/articles/fork-a-repo/)
+- [Hosting sites with GitHub Pages](https://pages.github.com/)
 
 ## Resources
-[GitHub Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
-[Git - the simple guide](http://rogerdudler.github.io/git-guide)
-[GitHub Help](https://help.github.com/)
-[Git Documentation](https://git-scm.com/doc)
+
+- [GitHub Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Git - the simple guide](http://rogerdudler.github.io/git-guide)
+- [GitHub Help](https://help.github.com/)
+- [Git Documentation](https://git-scm.com/doc)
 
 
