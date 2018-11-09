@@ -25,8 +25,37 @@ Intro to Git + Github workshop materials
 
         git config --global user.email "YOUR EMAIL"
 
-### Clone your repo
+### Clone your repo locally
+    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ### Making changes
+1. Change directory into your local repo
+
+        cd YOUR-REPOSITORY
+
+2. Edit README.md and save the changes
+
+        vim README.md
+
+3. Check to see what changes Git has noticed
+        
+        git status
+
+4. Add changed files to the Index
+
+        git add README.md
+
+5. Added something you didn't intend to? Remove the file from the index
+
+        git reset README.md
+
+6. Commit your changes
+
+        git commit -m "added README file"
+
+7. Push your changes to your remote repository
+
+        git push origin master
+        
 ### Reverting changes
 ### Branching
 ### Merging
