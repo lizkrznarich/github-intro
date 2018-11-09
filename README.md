@@ -7,6 +7,25 @@ Workshop for [Madhacks 2018](https://www.madhacks.io/)
 
 ## Tutorial
 
+Same content as in the [slides](https://lizkrznarich.github.io/github-intro/slides)
+[What we'll cover today](#what-well-cover-today)
+[What is version control?](#what-is-version-control)
+[What is Git?](#what-is-git)
+[What is GitHub?](#what-is-github)
+[Git terms](#git-terms)
+[Git workflow](#git-workflow)
+[Create a GitHub account](#create-a-github-account)
+[Create a new repository](#create-a-new-repository)
+[Set up Git](#set-up-git)
+[Clone your repo](#clone-your-repo)
+[Making changes](#making-changes)
+[Playing nicely with others](#playing-nicely-with-others)
+[Branching workflow](#branching-workflow)
+[Branching](#branching)
+[Merging](#merging)
+[Pull requests](#pull-requests)
+[Syncing](#syncing)
+
 ### What we'll cover today
 1. Git concepts + terms
 2. Setting up Git + Github
