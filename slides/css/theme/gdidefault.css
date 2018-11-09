@@ -47,6 +47,10 @@ body {
   background: #f9b8bb;
   text-shadow: none; }
 
+.reveal section {
+  margin-top: .5em;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -57,7 +61,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #f05b62;
+  color: #cfd75a;
   font-family: "Gotham-Bold", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
