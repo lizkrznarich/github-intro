@@ -136,6 +136,22 @@ Git: Free, open source version control system
 
         git reset --hard origin master
 
+### Playing nicely with others
+
+Default: Everyone works on, commits and pushes to the master branch
+
+- OK if you're working alone
+- Not great if you're working with others - you end up overwriting each -others' changes
+
+Git allows users to collaborate through 2 features:
+
+- **Branching** allows each user to work on a separate copy of a repo
+- **Merging** allows combining branches and checking for conflicts
+
+### Branching workflow
+
+![branching workflow](https://lizkrznarich.github.io/github-intro/slides/img/branch-flow.png)
+
 ### Branching
 1. Create a new local branch
 
@@ -152,10 +168,24 @@ Git: Free, open source version control system
         git push origin new-branch-name
 
 ### Merging
+After a branch is pushed to the remote, it needs to be checked for conflicts and merged into the master branch to make the changes 'official'
+
+In GitHub, request to merge your branch into master by making a Pull Request
+
+### Pull requests
+
+Pull requests send a message to the remote repository owner asking to merge your branch into the master branch
+
+- Specific to GitHub (not part of Git)
+- Can only be made via the GitHub UI
+
 1. Open a Pull Request [https://help.github.com/articles/about-pull-requests](https://help.github.com/articles/about-pull-requests)
 2. Merge a Pull Request [https://help.github.com/articles/merging-a-pull-request](https://help.github.com/articles/merging-a-pull-request/)
 
 ### Syncing
+
+After pull requests are merged, always sync your local repo with the remote!
+
 1. Switch to the master branch
         
         git checkout master
