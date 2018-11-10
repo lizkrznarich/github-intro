@@ -37,9 +37,12 @@
 				<section>
                     <h4>Intro to Version Control with</h4>
 					<h1>Git + GitHub</h1>
-                    <p>Liz Krznarich | Madhacks 2018</p>
+                    <p>Madhacks 2018</p>
+                    <p>
+                        <small>Liz Krznarich, Frontend Dev/Tech Lead, <a href="https://orcid.org">ORCID</a></small>
+                    </P>
 					<p>
-						<small>Find these slides (and other handy resources) at <a href ="https://bit.ly/2qzrfVT">https://bit.ly/2qzrfVT</a></small>
+						Slides + other good stuff: <a href ="https://bit.ly/2qzrfVT">https://bit.ly/2qzrfVT</a>
 					</p>
 				</section>
                 <!-- What we'll cover today -->
@@ -50,7 +53,7 @@
                         <li>Setting up Git + Github</li>
                         <li>Creating a new repository</li>
                         <li>Basic git commands</li>
-                        <li>Collaborating w/others (branching/merging)</li>
+                        <li>Collaborating w/others (branching/merging, communication)</li>
                     </ol>
                 </section>
             <!-- What is version control? -->
@@ -82,6 +85,7 @@
                     <p>&nbsp;</p>
                     <p><strong class="blue">GitHub:</strong> Code storage + sharing service based on Git that allows you to:</p>
                         <ul>
+                            <li>Store your code</li>
                             <li>Collaborate with others on projects</li>
                             <li>Share/showcase your code</li>
                             <li>Find code that you can use in your own projects</li>
@@ -142,6 +146,9 @@
                 <p>&nbsp;</p>
                 <p>And the email attached to your GitHub account</p>
                 <pre class="terminal"><code class="xml">git config --global user.email "YOUR EMAIL"</code></pre>
+                <p>Check that your user name/email are correct</p>
+                <pre class="terminal"><code class="xml">git config -l</code></pre>
+            </section>
             </section>
             <!-- Connect the your local repo to GitHub -->
             <section>
@@ -250,7 +257,7 @@ Date:   Thu Nov 8 19:02:52 2018 -0600
             <section>
                 <h2>Revert changes</h2>
                 <p>Revert to a specific commit</p>
-                <pre class="terminal"><code class="xml">git reset 603c619cf90dd9520c141d65d0f3697973bc9a8d</code></pre>
+                <pre class="terminal"><code class="xml">git reset --hard 603c619cf90dd9520c141d65d0f3697973bc9a8d</code></pre>
                 <p class="blue">Things have gone terribly wrong?</p>
                 <p>Reset local to match remote</p>
                 <pre class="terminal"><code class="xml">git reset --hard origin master</code></pre>

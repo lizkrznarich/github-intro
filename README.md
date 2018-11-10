@@ -150,7 +150,7 @@ Git: Free, open source version control system
 
 2. Revert to a specific commit
 
-        git reset 603c619cf90dd9520c141d65d0f3697973bc9a8d
+        git reset --hard 603c619cf90dd9520c141d65d0f3697973bc9a8d
 
 3. Things gone terribly wrong? Reset local to match remote
 
